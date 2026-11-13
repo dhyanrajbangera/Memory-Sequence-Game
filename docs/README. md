@@ -1,0 +1,28 @@
+
+# Project Documentation
+
+This directory contains the technical documentation for building, wiring, and testing the Memory Sequence Game.
+
+## Documentation Index
+
+| Document | Purpose |
+|---|---|
+| `BUILD_GUIDE.md` | Circuit assembly, firmware upload, functional testing, and enclosure fitting. |
+| `HARDWARE.md` | Bill of materials and electrical considerations. |
+| `PINOUT.md` | Arduino pin assignments and button logic. |
+
+## Recommended Reading Order
+
+1. Start with HARDWARE.md to identify the required components.
+2. Review PINOUT.md before connecting the circuit.
+3. Follow BUILD_GUIDE.md to assemble, upload, test, and fit the enclosure.
+
+## Documentation Scope
+
+These documents describe the pin assignments and behavior implemented in `firmware/memorygame.ino`.
+
+They are intended as build documentation, not a substitute for component datasheets or board-specific electrical limits.
+
+The repository does not currently include a verified schematic, measured enclosure dimensions, or printer-specific settings.
+
+For the project overview, see the main README.
